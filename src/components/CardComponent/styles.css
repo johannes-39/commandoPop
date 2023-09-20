@@ -1,0 +1,38 @@
+
+.divBody {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.divCard {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    max-width: 40rem;
+    color: #000000;
+    transition: all 0.2s linear;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+
+
+}
+.divCard:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.img {
+    width: 100%;
+    display: block;
+    height: 5rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    transition: all 0.5s linear;
+}
+.divCard:hover img {
+    width: 100%;
+    height: 15rem;
+}
