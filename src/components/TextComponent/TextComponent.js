@@ -5,7 +5,7 @@ const TextComponent:React.FC<any> =  ({myclick, input}) => {
     return (
         <div>
             {
-                myclick === true ? <p  className={'p'}>{input}</p>: <div><p  className={'p1'}>{input}<div className={'line'}></div></p></div>}
+                myclick === false ? <p  className={'p'}>{input}</p>: <div><p  className={'p1'}>{input}<div className={'line'}></div></p></div>}
         </div>
     )
 }
