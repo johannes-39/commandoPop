@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './styles.css'
-import TextComponent from "../TextComponent/TextComponent";
 const Dropdown:React.FC<any> =  () => {
     const [open, setOpen] = useState(false);
     const [value, setValue] = useState("größe auswählen");
