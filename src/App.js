@@ -12,10 +12,9 @@ function App() {
   return (
       <div><Header></Header>
           <div className={"divContent"}>
-              <CardComponent content={"20 €"} image={image2}/>
-              <CardComponent content={"15 €"} image={image3}/>
-              <CardComponent content={"12 €"} image={image4}/>
-              <CardComponent content={"30 €"} image={image1}/>
+              <CardComponent content={"20 €"} content1={"commando poppenreuth shirt"} image={image2}/>
+              <CardComponent content={"15 €"} content1={"commando poppenreuth shirt"} image={image3}/>
+              <CardComponent content={"12 €"} content1={"commando poppenreuth schal"} image={image4}/>
           </div>
           <footer><Footer/></footer>
       </div>
