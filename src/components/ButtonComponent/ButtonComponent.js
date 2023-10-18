@@ -1,8 +1,11 @@
 import React from 'react';
 import './styles.css';
-const ButtonComponent:React.FC<any> =  () => {
+const ButtonComponent:React.FC<any> =  ({setCheckout, checkout}) => {
+    const handleOnClick = () => {
+        setCheckout(!checkout);
+    }
     return (
-        <button className={'button'}>kaufen</button>
+        <button onClick={handleOnClick} className={'button'}>kaufen</button>
     )
 }
 export default ButtonComponent;
