@@ -9,8 +9,8 @@ const CardComponent:React.FC<any> =  ({content, image}) => {
     return (
         <div onClick={handleOnClick} className={'divBody'}>
             {
-                test === true ? <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={content}></TextComponent></div> :
-                    <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={"BESTELLEN"}></TextComponent></div>
+                test === true ? <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={"BESTELLEN"}></TextComponent></div> :
+                    <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={content}></TextComponent></div>
             }
         </div>
 
