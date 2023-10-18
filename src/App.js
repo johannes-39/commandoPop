@@ -2,6 +2,7 @@ import './App.css';
 import Header from "./components/Header/Header";
 import CardComponent from "./components/CardComponent/CardComponent";
 import Footer from "./components/Footer/Footer";
+
 import image1 from './images/blog-post-2.jpeg'
 import image2 from './images/blog-post-3.jpeg'
 import image3 from './images/blog-post-4.jpeg'

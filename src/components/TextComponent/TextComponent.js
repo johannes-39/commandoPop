@@ -1,8 +1,12 @@
 import React from 'react';
 import './styles.css'
-const TextComponent:React.FC<any> =  ({input}) => {
+const TextComponent:React.FC<any> =  ({myclick, input}) => {
+    console.log(myclick);
     return (
-        <p  className={'p'}>{input}</p>
+        <div>
+            {
+                myclick === true ? <p  className={'p'}>{input}</p>: <div><p  className={'p1'}>{input}<div className={'line'}></div></p></div>}
+        </div>
     )
 }
 export default TextComponent;

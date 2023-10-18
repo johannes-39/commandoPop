@@ -1,11 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './styles.css'
 import TextComponent from "../TextComponent/TextComponent";
 const CardComponent:React.FC<any> =  ({content, image}) => {
+    const [test, setTest] = useState(false);
+    const handleOnClick = () => {
+        setTest(!test);
+    }
     return (
-        <div className={'divBody'}>
-
-            <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent input={content}></TextComponent></div>
+        <div onClick={handleOnClick} className={'divBody'}>
+            {
+                test === true ? <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={content}></TextComponent></div> :
+                    <div className={'divCard'}><img className={'img'} src={image} alt="blog"/><TextComponent myclick={test} input={"BESTELLEN"}></TextComponent></div>
+            }
         </div>
 
     )
