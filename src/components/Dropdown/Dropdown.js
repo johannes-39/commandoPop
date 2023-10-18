@@ -24,15 +24,6 @@ const Dropdown:React.FC<any> =  () => {
         setOpen(!open);
     }
 
-    const myButton= () => {
-        return (
-            <div className={"dropdown1"}>
-                <button className={'button'}>test1</button>
-                <button className={'button'}>test2</button>
-                <button className={'button'}>test3</button>
-            </div>
-        );
-    }
     return (
         <div className={"dropdown1"}>
             <button className={'button'} onClick={handleOnClick}>{value}</button>
