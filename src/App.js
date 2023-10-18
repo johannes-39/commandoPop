@@ -7,6 +7,8 @@ import image1 from './images/blog-post-2.jpeg'
 import image2 from './images/blog-post-3.jpeg'
 import image3 from './images/blog-post-4.jpeg'
 import image4 from './images/blog-post-5.jpeg'
+import Dropdown from "./components/Dropdown/Dropdown";
+import Purchase from "./components/Purchase/Purchase";
 
 function App() {
   return (

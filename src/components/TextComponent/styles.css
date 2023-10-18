@@ -27,3 +27,11 @@
     background-color: #ffffff;
     border-radius: 0rem 0rem 1rem 1rem;
 }
+.line1 {
+    top: 0;
+    height: 0.03rem;
+    width: 100%;
+    background-color: #565656;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
