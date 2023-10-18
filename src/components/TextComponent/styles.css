@@ -1,6 +1,7 @@
 .p {
     padding: 1rem;
     text-align: center;
+    font-size: 12px;
     height: 100%;
     background-color: #ffffff;
     border-radius: 0rem 0rem 1rem 1rem;
@@ -21,7 +22,6 @@
 }
 .p2 {
     padding: 1rem;
-    font-size: 12px;
     text-align: center;
     height: 100%;
     background-color: #ffffff;
