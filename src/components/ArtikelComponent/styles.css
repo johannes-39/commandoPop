@@ -1,0 +1,36 @@
+.artikelbox {
+    width: 80%;
+    margin-left: 10%;
+
+}
+.artikelContainer {
+    width: 100%;
+    height: 10rem;
+    border-radius: 2rem;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s linear;
+}
+
+.artikelContainer:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+}
+.image1 {
+    width: 100%;
+    height: 10rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+.content {
+
+    font-size: 12px;
+    padding: 1rem;
+    height: 0.8rem;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s linear;
+    border-radius: 0rem 0rem 2rem 2rem;
+}
+
+.content:hover {
+    height: 100%;
+}

@@ -40,3 +40,12 @@
 .divContent {
   margin-top: 5rem;
 }
+
+.mySides {
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
