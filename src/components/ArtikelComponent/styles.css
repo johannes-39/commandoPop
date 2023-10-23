@@ -1,12 +1,13 @@
 .artikelbox {
     width: 80%;
     margin-left: 10%;
+    transition: all 0.2s linear;
 
 }
 .artikelContainer {
     width: 100%;
     height: 10rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.2s linear;
 }
@@ -17,20 +18,86 @@
 .image1 {
     width: 100%;
     height: 10rem;
-    border-radius: 2rem 2rem 0rem 0rem;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
-.content {
+.headerBlock {
 
     font-size: 12px;
-    padding: 1rem;
-    height: 0.8rem;
     width: 100%;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.8s linear;
-    border-radius: 0rem 0rem 2rem 2rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pfeil {
+    transform: rotate(45deg);
+    width: 0.8rem;
+    height: 0.3rem;
+    margin-right: 1.3rem;
+    margin-top: 0.3rem;
+    background-color: #555555;
+}
+.pfeil2 {
+    transform: rotate(-45deg);
+    width: 1.4rem;
+    height: 0.3rem;
+    margin-left: 0.8rem;
+    background-color: #555555;
+    position: fixed;
+}
+.pfeilbox {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    transition: all 0.4s linear;
+    transform: rotate(-90deg);
+    font-size: 20px;
+    border: none;
+    background-color: #ececec;
+
+}
+.pfeilbox:hover {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.content:hover {
-    height: 100%;
+.headerBlock2 {
+
+    font-size: 12px;
+    width: 100%;
+    transition: all 0.8s linear;
+    display: flex;
+    justify-content: space-between;
+
 }
+
+.contentBlock {
+
+    font-size: 12px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.8s linear;
+    border-radius: 0rem 0rem 1rem 1rem;
+    padding: 1rem;
+
+
+}
+.contentBlock2 {
+
+    font-size: 12px;
+    width: 100%;
+    transition: all 0.8s linear;
+    padding-top: 1rem;
+
+}
+
+.text {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    margin-left: 2%;
+}
+
+
