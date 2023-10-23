@@ -21,15 +21,29 @@ const ArtikelComponent:React.FC<any> =  ({image, content}) => {
                 text === true ? <div className={"contentBlock"}>
                 <div className={"headerBlock2"}>
                     <p className={"text"}>Poppenreuth siegreich</p>
-                    <button onClick={handleOnClick} className={"pfeilbox"}>{"<"}</button>
+
                 </div>
+                        <div className={"dividerButton"}>
+                            <div className={"divider1"}></div>
+                            <button onClick={handleOnClick} className={"pfeilbox"}>{"schließen"}</button>
+                            <div className={"divider1"}></div>
+                        </div>
                     <div className={"contentBlock2"}><div>{content}</div></div>
 
                 </div> :
-                    <div className={"headerBlock"}>
-                        <p className={"text"}>Poppenreuth siegreich</p>
-                        <button onClick={handleOnClick} className={"pfeilbox"}>{"<"}</button>
+                    <div className={"contentBlock"}>
+                        <div className={"headerBlock2"}>
+                            <p className={"text"}>Poppenreuth siegreich</p>
+
+                        </div>
+                        <div className={"dividerButton"}>
+                            <div className={"divider1"}></div>
+                            <button onClick={handleOnClick} className={"pfeilbox"}>{"lesen"}</button>
+                            <div className={"divider1"}></div>
+                        </div>
+
                     </div>
+
             }
 
         </div>)

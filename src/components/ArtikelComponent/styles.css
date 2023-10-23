@@ -42,7 +42,6 @@
     background-color: #555555;
 }
 .pfeil2 {
-    transform: rotate(-45deg);
     width: 1.4rem;
     height: 0.3rem;
     margin-left: 0.8rem;
@@ -50,14 +49,16 @@
     position: fixed;
 }
 .pfeilbox {
-    width: 2rem;
+    width: 5rem;
     height: 2rem;
+    padding: 0.5rem;
     border-radius: 1rem;
     transition: all 0.4s linear;
-    transform: rotate(-90deg);
     font-size: 20px;
     border: none;
     background-color: #ececec;
+    font-family: Consolas;
+    font-size: 10px;
 
 }
 .pfeilbox:hover {
@@ -70,7 +71,8 @@
     width: 100%;
     transition: all 0.8s linear;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -95,9 +97,25 @@
 }
 
 .text {
-    margin-top: 0.5rem;
+    display: flex;
+    text-align: center;
     font-size: 14px;
-    margin-left: 2%;
+}
+
+.dividerButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.divider1 {
+    width: 50%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 0.05rem;
+    background-color: #555555;
 }
 
 
